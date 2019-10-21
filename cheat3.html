@@ -1,0 +1,74 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title> CheatSheet </title>
+    <link rel="stylesheet" href="Style/style.css">
+    <style>
+    ul.a {
+        list-style-type: square;
+    }
+    ul {
+    list-style: square inside url("sqpurple.gif");
+    }
+    </style>
+</head>
+
+<body>
+    <article>
+        <h2>Start tags for</h2>
+        <p>
+            &lt;ol&gt; an order List<br>
+            &lt;ul&gt; an unordered list<br>
+            &lt;dl&gt; an description list<br>
+            &lt;li&gt; a list item<br>
+            &lt;dt&gt; a description term<br>
+            &lt;dd&gt; a description data<br>
+        </p>
+        <h2>Make bullet a square</h2>
+        ul.a {
+        list-style-type: square;
+        }
+        <h2>Make bullet an image named "my-bullet.png"</h2>
+        ul {
+        list-style: square inside url("sqpurple.gif");
+        }
+        <h2>Make bullet an uppercase roman number</h2>
+        ol.c {
+        list-style-type: upper-roman;
+        }
+        <h2>Set bullet position to be inside the list item's text flow</h2>
+        ul.b {
+        list-style-position: inside;
+        }
+        <h2>Set bullet position to be outside the list item's text flow</h2>
+        ul.a {
+        list-style-position: outside;
+        }
+        <h2>Start tags for</h2>
+        <p>
+            &lt;table&gt; a table<br>
+            &lt;tr&gt; a table row<br>
+            &lt;th&gt; a table header<br>
+            &lt;td&gt; a table header cell<br>
+            &lt;tbody&gt; a table body<br>
+            &lt;td&gt; a table cell<br>
+            &lt;tfoot&gt; a table footer<br>
+            &lt;tr&gt; a table footer cell<br>
+
+        </p>
+        <h2>Black dotted border of 1 px width.</h2>
+        table, th, td {
+        border: 1px solid black;
+        }
+        <h2>Solid border of 1 px width having a red color and rounded corners</h2>
+        table, th, td {
+        border: 1px solid red;
+        border-radius:6px;
+        }
+        <h2>Merge the borders of table cells so that they appear as one line</h2>
+        th, td {
+        border-bottom: 1px solid #ddd;
+        }
+        </artical>
+</body>
+</html>
